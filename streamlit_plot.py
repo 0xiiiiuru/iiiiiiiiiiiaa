@@ -9,7 +9,7 @@ from moralis import evm_api
 import plotly.express as px
 import numpy as np
 import networkx as nx
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 st.set_page_config(
     page_title="Blockchain Analysis",
