@@ -5,4 +5,3 @@ moralis
 plotly.express
 numpy
 networkx
-matplotlib.pyplot
