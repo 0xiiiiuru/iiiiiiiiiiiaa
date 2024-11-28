@@ -163,7 +163,7 @@ def date(df):
 def api_query(length_data, wallet):
 
     final_df = pd.DataFrame()
-    api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjViZGZkYTA5LTU0ZTMtNGJjOC04ZTQwLWFjNzFjM2MwZDIzZSIsIm9yZ0lkIjoiNDE1MzYzIiwidXNlcklkIjoiNDI2ODY0IiwidHlwZSI6IlBST0pFQ1QiLCJ0eXBlSWQiOiJkOTJjNDE5Ny0xMjNiLTQxYWItODY4Zi05Y2E4NTI3YWJkNDUiLCJpYXQiOjE3MzI0ODQzNjEsImV4cCI6NDg4ODI0NDM2MX0.IM-G4-A5nqQkwJtS1Acim_xRRWV7I8gQAs0tsUgNDig"
+    # api_key = ""
 
     cursor = ""
     # api
@@ -214,7 +214,7 @@ if st.session_state.clicked:
     # df = api_query(length_data, wallet)
 
     with st.expander("Click to load raw data..."):
-        df = pd.read_pickle('/Users/aritra/Documents/SIH/otherwallet_eth_moreprocessing.pkl')
+        df = pd.read_pickle('otherwallet_eth_moreprocessing.pkl')
         st.dataframe(df)
         
     df_plot = df.copy()
