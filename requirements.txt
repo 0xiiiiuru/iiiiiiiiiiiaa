@@ -1,2 +1,8 @@
 pandas
 streamlit
+streamlit_agraph
+moralis
+plotly.express
+numpy
+networkx
+matplotlib.pyplot
